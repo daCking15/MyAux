@@ -1,0 +1,365 @@
+@charset "UTF-8";
+body {
+	background-color: #ffffff;
+	margin: 0;
+    font-family: 'Rock Salt', cursive;
+}
+.container {
+    min-height: 98vh;
+}
+
+.header_link_1 {
+    color: white;
+    text-decoration: none;  
+}
+.header_link_2 {
+    color: #14BBB1;
+    text-decoration: none;
+}
+.thumbnail {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 2.5vw;
+}
+.column {
+	background-color: #000000;
+	width: 20%;
+	height: 2vw;
+	text-align: center;
+	padding-bottom: 4%;
+	float: left;
+}
+
+.spotlight {
+	background-color: #ffffff;
+	width: 100%;
+	height: 100%;
+}
+.thumbnail3 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 40%;
+    margin-bottom: -25pt;
+    padding-top: 8%;
+	text-align: left;
+	text-align: center;
+	color: #000000;
+	font-size: 60pt;
+    color: #8C178A;
+}
+.thumbnail4 {
+	text-align: center;
+	color: #14BBB1;
+	font-size: 23pt;
+    margin-right: 35%;
+    margin-top: 0%;
+}
+.horizontalBar {
+	height: 500px;
+    margin-bottom: 10%;
+    text-align: right;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+	background-color: #410A3E;
+}
+.textColumn {
+    color: #14BBB1;
+    font-family: 'Comic Sans MS';
+    font-size: 1.5em;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 26%;
+    height: 100%;
+    text-align: center;
+    float: left;
+    display: table;
+}
+span{
+    display: table-cell;
+    vertical-align: middle;
+}
+.videoColumn {
+    width: 65%;
+    margin-right: 2.5%;
+    height: 100%;
+    text-align: right;
+    float: right;
+}
+
+.footer {
+	background-color: #000000;
+    position:relative;
+    text-align: left;
+	width: 100%;
+	height: 30pt;
+    color: white;
+    float: left;
+}
+
+.youtube-player {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    max-width: 100%;
+}  
+.youtube-player iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: transparent;
+}   
+.youtube-player img {
+    bottom: 0;
+    display: block;
+    left: 0;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    height: auto;
+    cursor: pointer;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    transition: .4s all;
+}   
+.youtube-player img:hover {
+    -webkit-filter: brightness(75%);
+}
+.youtube-player .play {
+    height: 72px;
+    width: 72px;
+    left: 50%;
+    top: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: absolute;
+    background: url("//i.imgur.com/TxzC70f.png") no-repeat;
+    cursor: pointer;
+}
+
+.myMusic {
+    background-color: #ffffff;
+	width: 100%;
+	height: 100%;
+}
+.profile {
+    background-color: #ffffff;
+    height: 5%;
+    width: 100%;
+    text-align: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    float: left;  
+    font-size: 17pt
+}
+.profileColumn {
+    background-color: #ffffff;
+	width: 100pt;
+	height: 50%;
+    font-size: 13pt;
+	text-align: center;
+	float: left;
+}
+.songTemplate {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 40em;
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+    float: left;
+    margin-bottom: 5%;
+}
+.templateHeader {
+    background-color: #410A3E;
+    width: 100%;
+    height: 15%;
+    color: #14BBB1;
+    text-align: center;
+    float: left;
+    display: table;
+    margin-bottom: 2.5%;
+}
+.contentColumn {
+
+    background-color: black;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 70%;
+    color: #14BBB1;
+    text-align: center;
+    float: left;
+}
+.songTitle {
+    font-size: 16pt;
+}
+.artistName {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 10pt;
+    color: white;
+}
+
+.news {
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+}
+.redditLink {
+    height: 100%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    float: left;
+    width: 95%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #14BBB1;
+    border-style: solid;
+    border-width: .5%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.musicMap {
+    min-height: 100vh;
+    width: 100%;
+    float: left;
+    margin-bottom: 0%;
+    background-color: black;
+}
+.map {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 50em;
+}
+.mapDescription{
+    font-size: 20pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: comic sans ms;
+    color: white;
+}
+
+.myArtists {
+    background-color: #ffffff;
+	width: 100%;
+	height: 100%;
+}
+.artist {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 45em;
+    background-color: #14BBB1;
+    float: left;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.GretaImage {
+    margin-top: 10px;
+    background-image: url("Greta%20Van%20Fleet.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    float: left;
+}
+.WuTangImage {
+    margin-top: 10px;
+    background-image: url("Wu%20Tang%20Clan.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    float: left;
+}
+.SkiImage {
+    margin-top: 10px;
+    background-image: url("Ski%20Mask%20the%20Slump%20God.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    float: left;
+    
+}
+.artistCredit{
+    color: white;
+    font-size: 10pt;
+    font-family: 'Comic Sans MS';
+
+}
+.artistName {
+    margin-bottom: 2%;
+    text-align: center;
+    color: white;
+    color: black;
+    background-color: #8C178A;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4vw;
+    color: #14BBB1;
+}
+.bio{
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 18pt;
+    color: #8C178A;
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Comic Sans MS';
+}
+.release{
+    float:right;
+    width: 30%;
+    height: 400px;
+    color: white;
+    text-align: center;
+    margin-left: 1.5%;
+    margin-right: 1.6%;
+}
+.newReleaseHeader{
+    color: #14BBB1;
+    padding-bottom: 25px;
+    border-style: dashed;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: #14BBB1;
+    background-color: black;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'Rock Salt';
+    font-size: 50px;
+    width: 100%;
+    height: 100px;
+}
+.newReleases{
+    font-family: 'Rock Salt';
+	height: 700px;
+    margin-bottom: 10%;
+    text-align: right;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+	background-color: black;
+}
